@@ -48,11 +48,11 @@ A full-stack verification platform designed to issue, store, and securely verify
    ```bash
    git clone https://github.com/Gnaneshwar-reddy883/trust-tag.git
    cd trust-tag
-npm install
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-npm run dev
-trust-tag/
+   npm install
+   VITE_SUPABASE_URL=your_supabase_project_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   npm run dev
+   trust-tag/
 ├── backend/          # Backend logic & helper scripts
 ├── src/              # React frontend application
 ├── supabase/         # Supabase migrations, schemas, and configurations
